@@ -1,4 +1,4 @@
-# CCAMP Network Integration Guide
+# CCAMP: Cross-chain Asset Management Protocol Integration Guide
 
 This guide provides step-by-step instructions on how to integrate with the CCAMP (Cross-Chain Asset Management Protocol) network using the `CCAMPClient` library. The examples below demonstrate depositing and withdrawing funds, as well as manual data publishing to the Protocol Data Collection canister.
 
