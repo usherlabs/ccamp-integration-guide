@@ -1,0 +1,7 @@
+{
+  "privateKey": "",
+  "chain": "goerli",
+  "infuraKey": "ee55daa43fd04742ac2cc4053af2e2be",
+  "testTokenAddress": "0xB24a30A3971e4d9bf771BDc81435c25EA69A445c",
+  "chainIdentifier": "ethereum:5"
+}

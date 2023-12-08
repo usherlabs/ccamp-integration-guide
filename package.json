@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "ccamp:withdraw": "ts-node src/withdraw.ts",
+    "ccamp:deposit": "ts-node src/deposit.ts",
+    "ccamp:getbalance": "ts-node src/getbalance.ts",
+    "ccamp:getprincipal": "ts-node src/getprincipal.ts"
   },
   "keywords": [
     "CCAMP",
@@ -25,7 +29,8 @@
   },
   "homepage": "https://github.com/usherlabs/ccamp-integration-demo#readme",
   "dependencies": {
-    "@ccamp/lib": "^1.0.10"
+    "@ccamp/lib": "1.9.3",
+    "@dfinity/principal": "^0.20.2"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
