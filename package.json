@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/usherlabs/ccamp-integration-demo#readme",
   "dependencies": {
-    "@ccamp/lib": "1.9.3",
+    "@ccamp/lib": "1.11.3",
     "@dfinity/principal": "^0.20.2"
   },
   "devDependencies": {

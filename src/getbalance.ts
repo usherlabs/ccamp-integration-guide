@@ -1,10 +1,8 @@
 import { _getClient, _getWalletAndProvider } from "./utils/functions";
 import config from "../config.json";
-import { ENV } from "@ccamp/lib";
-import { Principal } from "@dfinity/principal";
-// import { Principal } from "@dfinity/principal";
+import { ENV, Principal } from "@ccamp/lib";
 
-const ACCOUNT = "0x1AE26a1F23E2C70729510cdfeC205507675208F2";
+const ACCOUNT = "0x1AE26a1F23E2C70729510cdfeC205507675208F2".toLowerCase();
 
 async function withdrawFunds() {
   // instantiate the client
@@ -21,6 +19,7 @@ async function withdrawFunds() {
   );
   console.log({
     accountBalance,
+    dataCollection: client.canisterIds.dataCollection,
   });
 }
 

@@ -2,7 +2,7 @@ import { _getClient, _getWalletAndProvider } from "./utils/functions";
 import config from "../config.json";
 import { ENV } from "@ccamp/lib";
 
-const WITHDRAW_AMOUNT = 1000;
+const WITHDRAW_AMOUNT = 12345;
 
 async function withdrawFunds() {
   // instantiate the client

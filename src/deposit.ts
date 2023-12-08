@@ -2,12 +2,13 @@ import { _getClient, _getWalletAndProvider } from "./utils/functions";
 import config from "../config.json";
 import { ENV } from "@ccamp/lib";
 
-const DEPOSIT_AMOUNT = 10000;
+const DEPOSIT_AMOUNT = 100000;
 
 async function depositFunds() {
   // instantiate the client
   const client = _getClient(config.privateKey, ENV.prod);
   const { wallet } = _getWalletAndProvider();
+
 
   // approve the locker contract to take funds from your account into the network
   const depositAmount = DEPOSIT_AMOUNT;

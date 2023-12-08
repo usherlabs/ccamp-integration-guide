@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@ccamp/lib@1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@ccamp/lib/-/lib-1.9.3.tgz#054ebf0a92f45a60b9bd9e6baacf75cb87353826"
-  integrity sha512-3usfqt299hrD/uFI9RxVRg+Rw0EX5RNZwaeUEVRb05EPt7ifUIVHlf69GgHhvMTJ8Lv07ZLubPeaaxb4FOe6iA==
+"@ccamp/lib@1.11.3":
+  version "1.11.3"
+  resolved "https://registry.yarnpkg.com/@ccamp/lib/-/lib-1.11.3.tgz#592c037f035356fcb7c15af38f5d55a9be7287b5"
+  integrity sha512-AzGQ5IMKCBxpoGOAM1zqD5/P9qphQx21AedyRlfK6HkywKlYonWSbCZm8JM69XFDxbBjj8+MLx28X4Q7k2NEUA==
   dependencies:
     "@dfinity/agent" "^0.15.7"
     "@dfinity/assets" "^0.15.7"
