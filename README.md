@@ -19,6 +19,16 @@ Install the required dependencies:
 npm install @ccamp/lib ethers
 ```
 
+# Running commands
+After modifying the config.json file, several baseline commands can be performed by running the following commands
+
+```
+  to withdraw from the network: `npm run ccamp:withdraw`
+  to deposit to the network: `npm run ccamp:deposit`
+  to get your icp balance: `npm run ccamp:getbalance`
+  to get your icp principal: `npm run ccamp:getprincipal`
+```
+
 ## Example Integration
 
 ```typescript
@@ -107,26 +117,6 @@ function getCCampCanisters(client: CCAMPClient) {
   };
 }
 
-// Manual data publishing to the Protocol Data Collection canister
-async function manualPublishToPDC() {
-  const SAMPLE_DEPOSIT_EVENT = {
-    event_name: "FundsDeposited",
-    canister_id: "CANISTER_ID",
-    account: "ACTOR_ONE",
-    amount: "DEPOSIT_AMOUNT",
-    chain: "CHAIN",
-    token: "TOKEN",
-  };
-
-  const client = _getClient(privateKey, ENV.prod);
-
-  // Get pdc canister
-  const { pdcCanister } = getCCampCanisters(client);
-  const response = await pdcCanister.manual_publish(
-    JSON.stringify(SAMPLE_DEPOSIT_EVENT)
-  );
-  // Add your publishing logic here
-}
 ```
 
 
