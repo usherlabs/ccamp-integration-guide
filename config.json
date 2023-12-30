@@ -1,7 +1,8 @@
 {
-  "privateKey": "0xa5edf8934ae86f884e4f14bd973576684a4578f238beed35053fbbd95c634680",
-  "chain": "goerli",
+  "privateKey": "",
+  "chain": "matic",
   "infuraKey": "ee55daa43fd04742ac2cc4053af2e2be",
-  "testTokenAddress": "0xB24a30A3971e4d9bf771BDc81435c25EA69A445c",
-  "chainIdentifier": "ethereum:5"
+  "testTokenAddress": "0x617073230d63c8bf4b29fcb9325e811722906c0f",
+  "zeroTokenAddress": "0x0000000000000000000000000000000000000000",
+  "chainIdentifier": "ethereum:137"
 }

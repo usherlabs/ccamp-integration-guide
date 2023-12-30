@@ -2,7 +2,7 @@ import { _getClient, _getWalletAndProvider } from "./utils/functions";
 import config from "../config.json";
 import { ENV, Principal } from "@ccamp/lib";
 
-const ACCOUNT = "0x1AE26a1F23E2C70729510cdfeC205507675208F2".toLowerCase();
+const ACCOUNT = "0x8BD65aBDAa622DC0fD56450Be433eAA792B9262D".toLowerCase();
 
 async function withdrawFunds() {
   // instantiate the client
